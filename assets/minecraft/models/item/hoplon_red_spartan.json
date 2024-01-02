@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "item/hoplon_plain",
+	"textures": {
+		"1": "item/hoplon_base0",
+		"2": "item/hoplon_border0",
+		"3": "item/hoplon_pattern7",
+		"particle": "item/hoplon_base0"
+	}
+}

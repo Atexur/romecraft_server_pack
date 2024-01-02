@@ -1,0 +1,86 @@
+{
+	"textures": {
+		"1": "helmets/plume"
+	},
+	"elements": [
+		{
+			"from": [11.22752, 3.25, 8.16591],
+			"to": [11.25252, 19.25, 24.16591],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.94001, 11.23662, 16.11435]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "cullface": "up"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "up"}
+			}
+		},
+		{
+			"from": [7.9441, 3.25, 7.50004],
+			"to": [7.9691, 19.25, 23.50004],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.94001, 11.23662, 16.11435]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "cullface": "up"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "up"}
+			}
+		},
+		{
+			"from": [4.6308, 3.25, 8.14137],
+			"to": [4.6558, 19.25, 24.14137],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.94001, 11.23662, 16.11435]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "cullface": "up"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "up"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-0.75, 21.25, 0],
+			"translation": [0.5, 2.75, -2.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-0.75, 21.25, 0],
+			"translation": [0.5, 2.75, -2.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-32.5, 127, 13.75],
+			"translation": [0, 5.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-32.5, 127, 13.75],
+			"translation": [0, 5.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 2.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"rotation": [8.75, 0, 0],
+			"translation": [0, 7.25, 0.5]
+		},
+		"fixed": {
+			"rotation": [-69.75, 0, 0],
+			"translation": [0, 0, -10]
+		}
+	},
+	"groups": [
+		{
+			"name": "coolus",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "plume",
+					"origin": [7.94001, 18.73662, 15.61435],
+					"children": [0, 1, 2]
+				}
+			]
+		}
+	]
+}

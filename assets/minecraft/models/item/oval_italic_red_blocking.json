@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "item/oval_plain_blocking",
+	"textures": {
+		"1": "item/oval_base0",
+		"2": "item/oval_border1",
+		"3": "item/oval_pattern7",
+		"4": "item/shield_handle",
+		"particle": "item/hex_base0"
+	}
+}
